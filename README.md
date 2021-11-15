@@ -1,6 +1,6 @@
 # OpenCV tutorial
 
-## Level 1
+## Level 1. Basic
 № | Functions | Output | Description
 --|-----------|--------|------------
 1 | [Read Show Save](https://github.com/Alekselion/opencv-tutorial/blob/master/1_read_show_save.py) | ![show](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/1_show.jpg) | Read, show and save image. Read, show and save video. Read, show and save camera.
@@ -12,10 +12,10 @@
 
 -----
 
-## Level 2
+## Level 2. Intermediate 
 № | Functions | Output | Description
 --|-----------|--------|------------
-7 | [Arithmetic and bitwise operations](https://github.com/Alekselion/opencv-tutorial/blob/master/7_operations.py) | ![operation](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/7_operations.jpg) | Image addition. Subtracting images. Superimposition images. Bitwise AND. Bitwise OR. Bitwise XOR. Bitwise NOT.
+7 | [Arithmetic and bitwise operations](https://github.com/Alekselion/opencv-tutorial/blob/master/7_operations.py) | ![operation](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/7_operations.jpg) | Addition of images. Subtracting of images. Superimposition images. Bitwise AND. Bitwise OR. Bitwise XOR. Bitwise NOT.
 8 | [Edges](https://github.com/Alekselion/opencv-tutorial/blob/master/8_edges.py) | ![edges](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/8_edges.jpg) | Method "Laplacian". Method "Sobel". Method "Canny".
 9 | [Filters](https://github.com/Alekselion/opencv-tutorial/blob/master/9_filters.py) | ![filters](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/9_filters.jpg) | Average blur. Median blur. Gaussian blur. Bilateral blur. Box filter. Filter 2D. Dilate filter. Erode filter. Denoising filter.
 10 | [Threshold Contours](https://github.com/Alekselion/opencv-tutorial/blob/master/10_threshold_contours.py) | ![contours](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/10_contours.jpg) | Method "Threshold". Method "Adaptive threshold". Search for contours using a method "threshold". Search for contours using a method "adaptive threshold". Search for contours using a method "Canny".
@@ -23,14 +23,14 @@
 
 -----
 
-## Level 3
+## Level 3. Advanced
 №  | Functions | Output | Description
 ---|-----------|--------|------------
-12 | [Painting](https://github.com/Alekselion/opencv-tutorial/blob/master/12_painting.py) | ![paint](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/12_paint.gif) | Drawing with the mouse by intercepting mouse events.
-13 | [Perspective](https://github.com/Alekselion/opencv-tutorial/blob/master/13_perspective.py) | ![perspective](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/13_perspective.gif) | Image perspective by selecting the extreme points of object.
-14 | [HSV setting](https://github.com/Alekselion/opencv-tutorial/blob/master/14_HSV.py) | ![hsv](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/14_hsv.gif) | Create window. Create trackbar for HSV setting.
+12 | [Mouse events](https://github.com/Alekselion/opencv-tutorial/blob/master/12_painting.py) | ![paint](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/12_paint.gif) | Interception of mouse events. Left mouse button to paint on canvas. Right mouse button to clear canvas.
+13 | [Perspective](https://github.com/Alekselion/opencv-tutorial/blob/master/13_perspective.py) | ![perspective](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/13_perspective.gif) | Select the top-right, top-left, bottom-right and bottom-left points for get the perspective image. 
+14 | [Hue Saturation Value](https://github.com/Alekselion/opencv-tutorial/blob/master/14_HSV.py) | ![hsv](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/14_hsv.gif) | Create trackbars for detect any color in image using HSV space: min hue, max hue, min saturation, max saturation, min value and max value.
 15 | [OCR](https://github.com/Alekselion/opencv-tutorial/blob/master/15_OCR.py) | ![ocr](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/15_ocr.jpg) | Optical Character Recognition (OCR) using [pytesseract](https://pypi.org/project/pytesseract/). Chapters recognition. Digits recognition. Words recognition.
 16 | [QR code reader](https://github.com/Alekselion/opencv-tutorial/blob/master/16_qr-code_reader.py) | ![qr](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/16_qr.jpg) | QR code reader using [pyzbar](https://pypi.org/project/pyzbar/).
-17 | [Shapes recognition](https://github.com/Alekselion/opencv-tutorial/blob/master/17_shapes_recognition.py) | ![shapes](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/17_shapes.jpg) | Find contours of shapes. Calculate area and perimeter of shapes. Find number of corners. Recognize shapes.
-18 | [Face detection](https://github.com/Alekselion/opencv-tutorial/blob/master/18_face_detection.py) | ![face](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/18_faces.jpg) | Face and eyes detection using [haar-cascade](https://github.com/anaustinbeing/haar-cascade-files). Blur face.
-19 | [Object tracking](https://github.com/Alekselion/opencv-tutorial/blob/master/19_object_tracking.py) | ![track](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/19_track.gif) | Object tracking on video. Display tracking status. 
+17 | [Shapes recognition](https://github.com/Alekselion/opencv-tutorial/blob/master/17_shapes_recognition.py) | ![shapes](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/17_shapes.jpg) | Find contours of shapes. Calculate area and perimeter of shapes. Find number of corners anf recognize shapes.
+18 | [Face detection](https://github.com/Alekselion/opencv-tutorial/blob/master/18_face_detection.py) | ![face](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/18_faces.jpg) | Face and eye detection using [haar-cascade](https://github.com/anaustinbeing/haar-cascade-files). Blur face.
+19 | [Object tracking](https://github.com/Alekselion/opencv-tutorial/blob/master/19_object_tracking.py) | ![track](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/19_track.gif) | Object tracking on video. Display tracking status.
