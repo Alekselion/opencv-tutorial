@@ -1,6 +1,9 @@
 # OpenCV tutorial
+[Opencv-python](https://pypi.org/project/opencv-python/) library step by step. Beginner, intermediate and advanced.
 
-## Level 1. Basic
+-----
+
+## Beginner
 № | Functions | Output | Description
 --|-----------|--------|------------
 1 | [Read Show Save](https://github.com/Alekselion/opencv-tutorial/blob/master/1_read_show_save.py) | ![show](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/1_show.jpg) | Read, show and save image. Read, show and save video. Read, show and save camera.
@@ -10,9 +13,7 @@
 5 | [Rotate Transform](https://github.com/Alekselion/opencv-tutorial/blob/master/5_rotate_transform.py) | ![rotate](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/5_rotate_transform.jpg) | Horizontal flip. Vertical flip. Horizontal and vertical flip. Rotate at angle. Image transformation.
 6 | [Draw shapes Text](https://github.com/Alekselion/opencv-tutorial/blob/master/6_shapes_text.py) | ![draw shapes](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/6_shapes.jpg) | Create blank canvas. Partial image coloring. Draw line. Draw rectangle. Draw circle. Draw ellipse. Draw polylines. Put text.
 
------
-
-## Level 2. Intermediate 
+## Intermediate 
 № | Functions | Output | Description
 --|-----------|--------|------------
 7 | [Arithmetic and bitwise operations](https://github.com/Alekselion/opencv-tutorial/blob/master/7_operations.py) | ![operation](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/7_operations.jpg) | Addition of images. Subtracting of images. Superimposition images. Bitwise AND. Bitwise OR. Bitwise XOR. Bitwise NOT.
@@ -21,9 +22,7 @@
 10 | [Threshold Contours](https://github.com/Alekselion/opencv-tutorial/blob/master/10_threshold_contours.py) | ![contours](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/10_contours.jpg) | Method "Threshold". Method "Adaptive threshold". Search for contours using a method "threshold". Search for contours using a method "adaptive threshold". Search for contours using a method "Canny".
 11 | [Mask Histogram](https://github.com/Alekselion/opencv-tutorial/blob/master/11_mask_histogram.py) | ![histogram](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/11_histogram.jpg) | Create mask. Build a gray histogram for image analysis. Build a color histogram for image analysis.
 
------
-
-## Level 3. Advanced
+## Advanced
 №  | Functions | Output | Description
 ---|-----------|--------|------------
 12 | [Mouse events](https://github.com/Alekselion/opencv-tutorial/blob/master/12_painting.py) | ![paint](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/12_paint.gif) | Interception of mouse events. Left mouse button to paint on canvas. Right mouse button to clear canvas.
