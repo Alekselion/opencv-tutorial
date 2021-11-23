@@ -1,5 +1,8 @@
 # OpenCV tutorial
-![Opencv](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/opencv.png)  
+<p align="center">
+  <img src="https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/opencv.png">
+</p>
+
 [Opencv-python](https://pypi.org/project/opencv-python/) library step by step. Beginner, intermediate and advanced.
 
 ## Beginner
