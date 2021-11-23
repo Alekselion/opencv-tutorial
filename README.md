@@ -1,7 +1,6 @@
 # OpenCV tutorial
+![Opencv](https://github.com/Alekselion/opencv-tutorial/blob/master/illustrations/opencv.png)  
 [Opencv-python](https://pypi.org/project/opencv-python/) library step by step. Beginner, intermediate and advanced.
-
------
 
 ## Beginner
 № | Functions | Output | Description
