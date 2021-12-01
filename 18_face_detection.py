@@ -34,7 +34,6 @@ eyes = eye_cascade.detectMultiScale(gray, scaleFactor=3, minNeighbors=5, minSize
 for (ex, ey, ew, eh) in eyes:
     cv2.ellipse(eyesDetect, (ex + ew // 2, ey + eh // 2), (23, 13), 0, 0, 360, (0, 255, 0), 2)
     cv2.putText(eyesDetect, "eye", (ex+ew//2-10, ey+eh), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1)
-
 cv2.imshow("Eyes detected", eyesDetect)
 cv2.waitKey(3000)
 cv2.destroyAllWindows()
@@ -50,12 +49,14 @@ for (x, y, w, h) in faces:
     height, width = face.shape[:2]
     dw = int(width // 3)
     dh = int(height // 3)
+    
     if dw % 2 == 0:
         dw -= 1
+    
     if dh % 2 == 0:
         dh -= 1
 
-    # blur
+    # make blur
     blurFace[y:y + h, x:x + w] = cv2.GaussianBlur(face, (dw, dh), 0)
 
 cv2.imshow("Blurred faces", blurFace)

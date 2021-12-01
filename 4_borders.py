@@ -1,6 +1,5 @@
 import os
 import cv2
-import numpy as np
 
 pth = os.path.join(os.getcwd(), "data")
 img = cv2.imread(pth + "/test_image.jpg")

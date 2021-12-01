@@ -1,6 +1,5 @@
 import os
 import cv2
-import numpy as np
 
 pth = os.path.join(os.getcwd(), "data")
 img1 = cv2.imread(pth + "/square.jpg")

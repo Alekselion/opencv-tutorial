@@ -25,7 +25,7 @@ cv2.imshow("Found contours", canny)
 cv2.waitKey(3000)
 cv2.destroyAllWindows()
 
-# find shapes
+# detect shapes
 for cnt in contours:
     area = cv2.contourArea(cnt)
     if area > 500:

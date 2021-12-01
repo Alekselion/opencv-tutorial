@@ -40,14 +40,13 @@ while True:
     v_min = cv2.getTrackbarPos("minV", "Track bars")  # min value of VALUE
     v_max = cv2.getTrackbarPos("maxV", "Track bars")  # max value of VALUE
     
-    lower = np.array([h_min, s_min, v_min])
-    upper = np.array([h_max, s_max, v_max])
+    lower = np.array([h_min, s_min, v_min])  # lower limit of HSV
+    upper = np.array([h_max, s_max, v_max])  # upper limit of HSV
     mask = cv2.inRange(hsv, lower, upper)
-    tune = cv2.bitwise_and(img, img, mask=mask)
-    mask = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
+    result = cv2.bitwise_and(img, img, mask=mask)
     
-    cv2.imshow("Tune and Mask", cv2.hconcat([tune, mask]))
-
+    mask = cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
+    cv2.imshow("Result and Mask", cv2.hconcat([result, mask]))
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
